@@ -1,0 +1,5 @@
+NoOfMinutes = int(input("enter the minutes passed since midnight:"))
+Hours = (NoOfMinutes // 60)
+Minutes = (NoOfMinutes % 60)
+print(f"the hour is {Hours}")
+print(f"he minutes is {Minutes}")
